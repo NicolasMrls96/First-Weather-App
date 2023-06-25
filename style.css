@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Configuración básica para el posicionamiento de elementos */
 body {
     font-family: "Outfit", sans-serif;
     background-image: url("https://images3.alphacoders.com/109/1091500.jpg");
@@ -11,6 +12,7 @@ body {
     background-position: center;
 }
 
+/* Estilos para el contenedor principal de la aplicación */
 .app-wrap {
     display: flex;
     flex-direction: column;
@@ -20,6 +22,7 @@ body {
             rgba(0, 0, 0, 0.6));
 }
 
+/* Estilos para la barra de búsqueda */
 header {
     display: flex;
     justify-content: center;
@@ -46,6 +49,7 @@ header input:focus {
     background-color: rgba(18, 18, 18, 0.8);
 }
 
+/* Estilos para la sección principal */
 main {
     flex: 1 1 100%;
     padding: 25px 25px 50px;
@@ -55,6 +59,7 @@ main {
     text-align: center;
 }
 
+/* Estilos para la sección de ubicación */
 .location .ciudad {
     color: #eee;
     font-size: 32px;
@@ -67,6 +72,7 @@ main {
     font-size: 16px;
 }
 
+/* Estilos para la sección de información actual del clima */
 .actual .temp {
     color: #eee;
     font-size: 102px;
@@ -94,5 +100,3 @@ main {
     font-weight: 500;
     text-shadow: 0 3px rgba(0, 0, 0, 0.4);
 }
-
-/*  */
